@@ -1,0 +1,211 @@
+.skills-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--text-primary-color);
+    z-index: 2;
+    margin: 32px 0;
+    background-color: var(--secondary-background-color);
+    border-radius: 16px;
+    width: calc(100% - 32px);
+    padding: 0 128px;
+}
+
+.skills-section>h1 {
+    width: 100%;
+    text-align: left;
+    margin: 16px;
+}
+
+.skills-section .left-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    flex-wrap: wrap;
+    margin: 12px 0;
+    transition: width 0.3s ease;
+    border-radius: 0;
+    width: calc(50% - 16px);
+    padding: 0;
+}
+
+.skills-section>article:nth-child(2) {
+    border-radius: 16px 16px 0 0;
+}
+
+.skills-section>article:nth-child(7) {
+    border-radius: 0 0 16px 16px;
+    margin-bottom: 20px;
+}
+
+.coding {
+    width: 100% !important;
+}
+
+.certificates {
+    width: 100%;
+}
+
+.skills li {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.skills p {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding: 0 12px;
+}
+
+@media (max-width: 1080px) {
+    .skills-section .left-article {
+        width: 100%;
+    }
+
+    .skills-section>h1 {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.progress-bar {
+    background-color: var(--tertiary-background-color);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    height: 16px;
+}
+
+.progress {
+    background-color: var(--primary-color);
+    height: 8px;
+    width: calc(var(--skill-level) - 7.25%);
+    transition: width 0.3s ease;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.skills img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 42px;
+    margin: 3px;
+}
+
+.show-more-container {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more {
+    background: none;
+    height: 3rem;
+}
+
+.show-more img {
+    height: 3rem;
+    opacity: 0.2;
+}
+
+.certificates .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0 0 64px;
+    margin: 0;
+}
+
+.certificates-container li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 16px;
+    width: 150px;
+    height: 150px;
+    font-size: 1rem;
+}
+
+@media (max-width: 1080px) {
+    .certificates-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+    }
+
+    .certificates-container li {
+        width: 100px;
+        height: 100px;
+        font-size: 0.8rem;
+    }
+}
+
+.certificates-container li:hover .certificate-ring {
+    transform: translate(-50%, -50%) scale(1.2);
+    border-color: var(--secondary-color);
+}
+
+.certificates-container li>p {
+    display: flex;
+    text-align: center;
+    z-index: 1;
+}
+
+@media (max-width: 880px) {
+    .show-button {
+        background-color: var(--secondary-background-color);
+        width: 2rem;
+        height: 2rem;
+        border-radius: 3rem;
+        object-fit: cover;
+        box-shadow: inset 0 0 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .skills-section {
+        padding: 0;
+        width: calc(100% - 32px);
+    }
+
+    .skills-section h1 {
+        padding: 0;
+        margin-left: 42px;
+        width: 600px !important;
+    }
+
+    .skills-section h2 {
+        margin-left: 16px;
+    }
+
+    .skills-section article {
+        padding: 0;
+        width: 600px !important;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .skills-section h1 {
+        padding: 0;
+        width: calc(100% - 42px) !important;
+    }
+
+    .skills-section article {
+        padding: 0;
+        width: calc(100% - 42px) !important;
+    }
+}

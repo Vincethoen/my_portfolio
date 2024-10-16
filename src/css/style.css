@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Define colors for light and dark themes */
+:root {
+    --primary-background-color-light: #ffffff;
+    --secondary-background-color-light: #F2F2F2;
+    --tertiary-background-color-light: #e2e2e2;
+    --text-primary-color-light: #1C1C1C;
+    --text-secondary-color-light: #000000;
+    --primary-color-light: #3FC1C9;
+    --secondary-color-light: #C5E86C;
+    --tertiary-color-light: #E5E5E5;
+
+    /* Dark theme colors */
+    --primary-background-color-dark: #000000;
+    --secondary-background-color-dark: #1C1C1C;
+    --tertiary-background-color-dark: #2c2c2c;
+    --text-primary-color-dark: #F2F2F2;
+    --text-secondary-color-dark: #ffffff;
+    --primary-color-dark: #FF2B51;
+    --secondary-color-dark: #FF7043;
+    --tertiary-color-dark: #D9D9D9;
+}
+
+/* Set colors based on the theme */
+[data-theme='light'] {
+    --primary-background-color: var(--primary-background-color-light);
+    --secondary-background-color: var(--secondary-background-color-light);
+    --tertiary-background-color: var(--tertiary-background-color-light);
+    --text-primary-color: var(--text-primary-color-light);
+    --text-secondary-color: var(--text-secondary-color-light);
+    --primary-color: var(--primary-color-light);
+    --secondary-color: var(--secondary-color-light);
+    --tertiary-color: var(--tertiary-color-light);
+}
+
+[data-theme='dark'] {
+    --primary-background-color: var(--primary-background-color-dark);
+    --secondary-background-color: var(--secondary-background-color-dark);
+    --tertiary-background-color: var(--tertiary-background-color-dark);
+    --text-primary-color: var(--text-primary-color-dark);
+    --text-secondary-color: var(--text-secondary-color-dark);
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+    --tertiary-color: var(--tertiary-color-dark);
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+/* Global styles */
+button {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    background-color: var(--primary-background-color);
+    color: var(--text-primary-color);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 0;
+    line-height: 1;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin: 8px 0 8px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: var(--secondary-color) underline;
+}
+
+h3 {
+    font-size: 2.6rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+h4 {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 2.2rem;
+    line-height: 1;
+}
+
+p {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+.blur {
+    position: relative;
+    filter: blur(12px);
+}
+
+/* Scroll Transition */
+.hidden-left {
+    opacity: 0 !important;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.hidden-right {
+    opacity: 0 !important;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1 !important;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.delay-group:nth-child(0) {
+    transition-delay: 0ms;
+}
+
+.delay-group:nth-child(1) {
+    transition-delay: 100ms;
+}
+
+.delay-group:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.delay-group:nth-child(3) {
+    transition-delay: 300ms;
+}
+
+.delay-group:nth-child(4) {
+    transition-delay: 400ms;
+}
+
+.delay-group:nth-child(5) {
+    transition-delay: 500ms;
+}
+
+.delay-group:nth-child(6) {
+    transition-delay: 600ms;
+}
+
+.delay-group:nth-child(7) {
+    transition-delay: 700ms;
+}
+
+.delay-group:nth-child(8) {
+    transition-delay: 800ms;
+}
+
+.delay-group:nth-child(9) {
+    transition-delay: 900ms;
+}
+
+.delay-group:nth-child(10) {
+    transition-delay: 1000ms;
+}
+
+.delay-group:nth-child(11) {
+    transition-delay: 1100ms;
+}
+
+.delay-group:nth-child(12) {
+    transition-delay: 1200ms;
+}
+
+.delay-group:nth-child(13) {
+    transition-delay: 1300ms;
+}
+
+.delay-group:nth-child(14) {
+    transition-delay: 1400ms;
+}
+
+.delay-group:nth-child(15) {
+    transition-delay: 1500ms;
+}
+
+.delay-group:nth-child(16) {
+    transition-delay: 1600ms;
+}
+
+.delay-group:nth-child(17) {
+    transition-delay: 1700ms;
+}
+
+.delay-group:nth-child(18) {
+    transition-delay: 1800ms;
+}
+
+.delay-group:nth-child(19) {
+    transition-delay: 1900ms;
+}
+
+.delay-group:nth-child(20) {
+    transition-delay: 2000ms;
+}
+
+.delay-group:nth-child(21) {
+    transition-delay: 2100ms;
+}
+
+.delay-group:nth-child(22) {
+    transition-delay: 2200ms;
+}
+
+.delay-group:nth-child(23) {
+    transition-delay: 2300ms;
+}
+
+.delay-group:nth-child(24) {
+    transition-delay: 2400ms;
+}
+
+.delay-group:nth-child(25) {
+    transition-delay: 2500ms;
+}
+
+.delay-group:nth-child(26) {
+    transition-delay: 2600ms;
+}
+
+.delay-group:nth-child(27) {
+    transition-delay: 2700ms;
+}
+
+.delay-group:nth-child(28) {
+    transition-delay: 2800ms;
+}
+
+.delay-group:nth-child(29) {
+    transition-delay: 2900ms;
+}
+
+.delay-group:nth-child(30) {
+    transition-delay: 3000ms;
+}
+
+/* paralax effect */
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.paralax-content {
+    position: absolute;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.paralax-1 {
+    transform: translateZ(-10px) scale(2);
+}
+
+.paralax-2 {
+    transform: translateZ(-10px) scale(2);
+}
+
+.paralax-3 {
+    transform: translateZ(-20px) scale(4);
+    left: 50%;
+}
+
+.paralax-4 {
+    bottom: -48vh;
+    width: 100%;
+    transform: translateZ(-10px) scale(2);
+}
+
+.paralax-1,
+.paralax-2,
+.paralax-3,
+.paralax-4,
+.paralax-5,
+.paralax-6,
+.paralax-7,
+.paralax-8,
+.paralax-9,
+.paralax-10 {
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.unwrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    top: 100vh;
+    background-color: var(--primary-background-color);
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.skills-section,
+.contact-section,
+.about-section {
+    padding: 2rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 20px;
+}
+
+article {
+    margin-left: 0;
+}
+
+.pill {
+    overflow: hidden;
+}

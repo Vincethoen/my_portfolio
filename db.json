@@ -1,0 +1,571 @@
+{
+    "EN": {
+        "footer": {
+            "p_1": "Designed and built by Vince 't Hoen © 2024.",
+            "p_2": "All rights reserved."
+        },
+        "contact": {
+            "p_1": "Looking for a developer with a passion for clean, modern design and an eye for detail? Let's connect! Whether you're building something new or need help bringing a vision to life, I'm always open to exciting opportunities. Drop me a message, and let's create something awesome together!"
+        },
+        "about": {
+            "h1": "Story of Vince 't Hoen",
+            "h2_1": "About me",
+            "p_1": "My name is Vince 't Hoen, and I was born in the picturesque region of Westland in the Netherlands, where I still reside with my wonderful wife and our two daughters. My journey has taken me through various creative fields, from virtual reality to playground design, and ultimately to exhibition booth design. After years of pursuing my passions, I made the bold decision to pivot my career towards coding — a hobby I’ve always cherished but never fully embraced as a profession. Now, I am committed to making this transition a reality.",
+            "h2_2": "Career Journey",
+            "p_2": "I graduated from Grafisch Lyceum Rotterdam, where I honed my skills as a 3D artist, driven by my love for creativity and design. I was fortunate to carve out a successful career in this competitive field, standing out as one of the few from my graduating class. However, as time went on, I discovered aspects of being a 3D designer that didn't resonate with me. This realization sparked a growing interest in web development.",
+            "p_3": "The prospect of changing careers felt daunting, especially after becoming a father. The fear of the unknown lingered, but after welcoming my second daughter two years later, I found the courage to pursue my true passion. I decided it was time to take the leap. I resigned from my position as a Project Manager / designer at ZuidKoop, ready to embrace a new path.",
+            "h2_3": "Reskilling as a Developer",
+            "p_4": "I was graduated at Grafisch Lysueem Rotterdam, where I became a 3D artist. Simply because i loved to create. After I succeeded to make an carreer in this field as one of the few in my class. I realised that there were parts as a 3D designer I dint like and I started to be more and more interested in a carreer as web developer. After becoming a dad I felt fear to make this decision to switch from a career. After the second time of becoming a dad 2 years later, I thought this is what I want I should go for it! So I quited my job and left the company ZuidKoop where I was a Project Manager/designer to make the career switch happen. I gave myself a year to become a Frontend developer, so I started a education at Bit_academy with the plan to first learn frontend the first year and to learn backend later on in the evenings. While I hoped to already have a job as a frontend developer. Wich at what point I am now."
+        },
+        "skills": {
+            "h1": "Skills",
+            "h2_1": "Coding",
+            "h2_2": "Frameworks",
+            "h2_3": "Libraries & tools",
+            "h2_4": "Softwares",
+            "h2_5": "Hardwares & other",
+            "code_languages": [
+                {
+                    "name": "HTML",
+                    "level": 100,
+                    "alt": "icon of html",
+                    "icon": "/icons/skills/html.svg",
+                    "id": 1
+                },
+                {
+                    "name": "CSS",
+                    "level": 100,
+                    "alt": "icon of css",
+                    "icon": "/icons/skills/css.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Javascript",
+                    "level": 95,
+                    "alt": "icon of Javascript",
+                    "icon": "/icons/skills/javascript.svg",
+                    "id": 3
+                },
+                {
+                    "name": "Typescript",
+                    "level": 85,
+                    "alt": "icon of Typescript",
+                    "icon": "/icons/skills/typescript.svg",
+                    "id": 4
+                },
+                {
+                    "name": "C#",
+                    "level": 42,
+                    "alt": "icon of C sharp",
+                    "icon": "/icons/skills/csharp.svg",
+                    "id": 5
+                }
+            ],
+            "frameworks": [
+                {
+                    "name": "React",
+                    "level": 90,
+                    "alt": "icon van react",
+                    "icon": "/icons/skills/react.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Tailwind",
+                    "level": 80,
+                    "alt": "icon of Tailwind",
+                    "icon": "/icons/skills/tailwind.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Bootstrap",
+                    "level": 95,
+                    "alt": "icon of Bootstrap",
+                    "icon": "/icons/skills/bootstrap.svg",
+                    "id": 3
+                },
+                {
+                    "name": "Vue.js",
+                    "level": 32,
+                    "alt": "icon of Vue",
+                    "icon": "/icons/skills/vue.svg",
+                    "id": 4
+                },
+                {
+                    "name": "Angular",
+                    "level": 15,
+                    "alt": "icon of Angular",
+                    "icon": "/icons/skills/angular.svg",
+                    "id": 5
+                }
+            ],
+            "libraries_tools": [
+                {
+                    "name": "Git",
+                    "level": 80,
+                    "alt": "icon van git",
+                    "icon": "/icons/skills/git.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Axios",
+                    "level": 40,
+                    "alt": "icon van Axios",
+                    "icon": "/icons/skills/axios.svg",
+                    "id": 2
+                }
+            ],
+            "softwares": [
+                {
+                    "name": "Figma",
+                    "level": 100,
+                    "alt": "icon of Figma",
+                    "icon": "/icons/skills/figma.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Photoshop",
+                    "level": 100,
+                    "alt": "icon of Photoshop",
+                    "icon": "/icons/skills/photoshop.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Microsoft Office",
+                    "level": 100,
+                    "alt": "icon of Microsoft office",
+                    "icon": "/icons/skills/office.svg",
+                    "id": 3
+                },
+                {
+                    "name": "Illustrator",
+                    "level": 100,
+                    "alt": "icon of Illustrator",
+                    "icon": "/icons/skills/illustrator.svg",
+                    "id": 4
+                },
+                {
+                    "name": "Indesign",
+                    "level": 100,
+                    "alt": "icon of Indesign",
+                    "icon": "/icons/skills/indesign.svg",
+                    "id": 5
+                },
+                {
+                    "name": "After Effects",
+                    "level": 100,
+                    "alt": "icon of After Effects",
+                    "icon": "/icons/skills/aftereffects.svg",
+                    "id": 6
+                },
+                {
+                    "name": "Unity",
+                    "level": 100,
+                    "alt": "icon of Unity",
+                    "icon": "/icons/skills/unity.svg",
+                    "id": 7
+                },
+                {
+                    "name": "Blender",
+                    "level": 100,
+                    "alt": "icon of blender",
+                    "icon": "/icons/skills/blender.svg",
+                    "id": 8
+                },
+                {
+                    "name": "3Ds Max",
+                    "level": 100,
+                    "alt": "icon of 3Ds Max",
+                    "icon": "/icons/skills/3dsmax.svg",
+                    "id": 9
+                },
+                {
+                    "name": "Autocad",
+                    "level": 65,
+                    "alt": "icon of autocad",
+                    "icon": "/icons/skills/autocad.svg",
+                    "id": 10
+                },
+                {
+                    "name": "Vectorworks",
+                    "level": 55,
+                    "alt": "icon of vectorworks",
+                    "icon": "/icons/skills/vectorworks.svg",
+                    "id": 11
+                },
+                {
+                    "name": "Zbrush",
+                    "level": 80,
+                    "alt": "icon of Zbrush",
+                    "icon": "/icons/skills/zbrush.svg",
+                    "id": 12
+                }
+            ],
+            "skills_hardwares": [
+                {
+                    "name": "Tekenen",
+                    "level": 100,
+                    "alt": "icon of potlood",
+                    "icon": "/icons/skills/pencil.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Virtual Reality",
+                    "level": 64,
+                    "alt": "icon of VR",
+                    "icon": "/icons/skills/vr.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Digital tekenen",
+                    "level": 99.5,
+                    "alt": "icon of wacom",
+                    "icon": "/icons/skills/wacom.svg",
+                    "id": 3
+                }
+            ]
+        },
+        "certificates": [
+            {
+                "name": "Command line",
+                "date": "06-03-24",
+                "origin": "Bit-academy",
+                "id": 1
+            },
+            {
+                "name": "HTML & CSS Beginner",
+                "date": "08-03-24",
+                "origin": "Bit-academy",
+                "id": 2
+            },
+            {
+                "name": "HTML & CSS Advanced",
+                "date": "14-03-24",
+                "origin": "Bit-academy",
+                "id": 3
+            },
+            {
+                "name": "Javascript Beginner",
+                "date": "18-03-24",
+                "origin": "Bit-academy",
+                "id": 4
+            },
+            {
+                "name": "Javascript Novice",
+                "date": "28-03-24",
+                "origin": "Bit-academy",
+                "id": 5
+            },
+            {
+                "name": "Javascript Classes",
+                "date": "14-04-24",
+                "origin": "Bit-academy",
+                "id": 6
+            },
+            {
+                "name": "Scrum",
+                "date": "15-05-24",
+                "origin": "Bit-academy",
+                "id": 7
+            },
+            {
+                "name": "Git",
+                "date": "16-05-24",
+                "origin": "Bit-academy",
+                "id": 8
+            },
+            {
+                "name": "Web Trainee",
+                "date": "17-05-24",
+                "origin": "Bit-academy",
+                "id": 9
+            },
+            {
+                "name": "Javascript Pro",
+                "date": "22-05-24",
+                "origin": "Bit-academy",
+                "id": 10
+            },
+            {
+                "name": "CSS Pro",
+                "date": "28-05-24",
+                "origin": "Bit-academy",
+                "id": 11
+            },
+            {
+                "name": "HTML Pro",
+                "date": "28-05-24",
+                "origin": "Bit-academy",
+                "id": 12
+            },
+            {
+                "name": "Front-end Frameworks",
+                "date": "13-06-24",
+                "origin": "Bit-academy",
+                "id": 13
+            },
+            {
+                "name": "React Beginner",
+                "date": "18-06-24",
+                "origin": "Bit-academy",
+                "id": 14
+            },
+            {
+                "name": "From Design to Code",
+                "date": "03-07-24",
+                "origin": "Bit-academy",
+                "id": 15
+            },
+            {
+                "name": "End-to-End Testing",
+                "date": "06-07-24",
+                "origin": "Bit-academy",
+                "id": 16
+            },
+            {
+                "name": "React Novice",
+                "date": "01-08-24",
+                "origin": "Bit-academy",
+                "id": 17
+            },
+            {
+                "name": "Front-end Unit Testing",
+                "date": "06-08-24",
+                "origin": "Bit-academy",
+                "id": 18
+            },
+            {
+                "name": "Your Front-end Framework",
+                "date": "13-08-24",
+                "origin": "Bit-academy",
+                "id": 19
+            },
+            {
+                "name": "Using APIs",
+                "date": "18-08-24",
+                "origin": "Bit-academy",
+                "id": 20
+            }
+        ]
+    },
+    "NL": {
+        "footer": {
+            "p_1": "Ontworpen en gebouwd door Vince 't Hoen © 2024.",
+            "p_2": "Alle rechten voorbehouden."
+        },
+        "contact": {
+            "p_1": "Op zoek naar een developer met een passie voor strak, modern design en oog voor detail? Laten we verbinden! Of je nu iets nieuws wilt opbouwen of hulp nodig hebt om een visie tot leven te brengen, ik sta altijd open voor boeiende uitdagingen. Neem contact op met mij, en laten we samen iets geweldigs creëren!"
+        },
+        "about": {
+            "h1": "Verhaal van Vince 't Hoen",
+            "h2_1": "Over mij",
+            "p_1": "Mijn naam is Vince 't Hoen, en ik ben geboren in de schilderachtige regio Westland in Nederland, waar ik nog steeds woon met mijn geweldige vrouw en onze twee dochters. Mijn reis heeft me door verschillende creatieve velden geleid, van virtual reality tot speelplaatsontwerp en uiteindelijk tot ontwerp van tentoonstellingsstands. Na jaren het nastreven van mijn passies, heb ik de moedige beslissing genomen om mijn carrière te pivoteren naar coderen — een hobby die ik altijd heb gekoesterd, maar nooit volledig als beroep heb omarmd. Nu ben ik vastbesloten om deze overgang werkelijkheid te maken.",
+            "h2_2": "Carrière Reis",
+            "p_2": "Ik ben afgestudeerd aan het Grafisch Lyceum Rotterdam, waar ik mijn vaardigheden als 3D_artiest heb verfijnd, gedreven door mijn liefde voor creativiteit en ontwerp. Ik had het geluk om een succesvolle carrière op te bouwen in dit competitieve veld, als een van de weinigen uit mijn afstudeerklas. Echter, na verloop van tijd ontdekte ik aspecten van het zijn een 3D_ontwerper die niet met me resoneerden. Deze realisatie wekte een groeiende interesse in webontwikkeling.",
+            "p_3": "Het vooruitzicht om van carrière te veranderen voelde ontmoedigend aan, vooral na het worden van een vader. De angst voor het onbekende bleef hangen, maar na de komst van mijn tweede dochter twee jaar later, vond ik de moed om mijn ware passie na te jagen. Ik besloot dat het tijd was om de sprong te wagen. Ik nam ontslag als Projectmanager / ontwerper bij ZuidKoop, klaar om een nieuw pad te omarmen.",
+            "h2_3": "Opleiding als Ontwikkelaar",
+            "p_4": "Ik ben afgestudeerd aan het Grafisch Lyceum Rotterdam, waar ik een 3D_artiest werd. Simpelweg omdat ik het leuk vond om te creëren. Nadat ik erin slaagde om een carrière in dit veld op te bouwen als een van de weinigen in mijn klas, realiseerde ik me dat er delen van het 3D_ontwerp waren die ik niet leuk vond, en begon ik steeds meer geïnteresseerd te raken in een carrière als webontwikkelaar. Na het worden van een vader voelde ik angst om deze beslissing te nemen om van carrière te wisselen. Na de tweede keer dat ik vader werd, twee jaar later, dacht ik: dit is wat ik wil, ik moet ervoor gaan! Dus ik quit mijn baan en verliet het bedrijf ZuidKoop, waar ik Projectmanager/ontwerper was, om de carrièrewissel mogelijk te maken. Ik gaf mezelf een jaar om een Frontend_ontwikkelaar te worden, dus ik begon een opleiding bij Bit_academy met het plan om het eerste jaar frontend te leren en later 's avonds backend. Terwijl ik hoopte al een baan te hebben als frontend_ontwikkelaar. Wat ik op dit moment ben."
+        },
+        "skills": {
+            "h1": "Vaardigheden",
+            "h2_1": "Programeren",
+            "h2_2": "Frameworks",
+            "h2_3": "Libraries & tools",
+            "h2_4": "Software",
+            "h2_5": "Hardwares & overig",
+            "code_languages": [
+                {
+                    "name": "HTML",
+                    "level": 100,
+                    "alt": "icon van html",
+                    "icon": "/icons/skills/html.svg",
+                    "id": 1
+                },
+                {
+                    "name": "CSS",
+                    "level": 100,
+                    "alt": "icon van css",
+                    "icon": "/icons/skills/css.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Javascript",
+                    "level": 95,
+                    "alt": "icon van Javascript",
+                    "icon": "/icons/skills/javascript.svg",
+                    "id": 3
+                },
+                {
+                    "name": "Typescript",
+                    "level": 85,
+                    "alt": "icon van Typescript",
+                    "icon": "/icons/skills/typescript.svg",
+                    "id": 4
+                },
+                {
+                    "name": "C#",
+                    "level": 42,
+                    "alt": "icon van C sharp",
+                    "icon": "/icons/skills/csharp.svg",
+                    "id": 5
+                }
+            ],
+            "frameworks": [
+                {
+                    "name": "Tailwind",
+                    "level": 80,
+                    "alt": "icon van Tailwind",
+                    "icon": "/icons/skills/tailwind.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Bootstrap",
+                    "level": 95,
+                    "alt": "icon van Bootstrap",
+                    "icon": "/icons/skills/bootstrap.svg",
+                    "id": 2
+                }
+            ],
+            "libraries_tools": [
+                {
+                    "name": "React",
+                    "level": 90,
+                    "alt": "icon van react",
+                    "icon": "/icons/skills/react.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Git",
+                    "level": 80,
+                    "alt": "icon van git",
+                    "icon": "/icons/skills/git.svg",
+                    "id": 2
+                }
+            ],
+            "softwares": [
+                {
+                    "name": "Figma",
+                    "level": 100,
+                    "alt": "icon van Figma",
+                    "icon": "/icons/skills/figma.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Photoshop",
+                    "level": 100,
+                    "alt": "icon van Photoshop",
+                    "icon": "/icons/skills/photoshop.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Microsoft Office",
+                    "level": 100,
+                    "alt": "icon van Microsoft office",
+                    "icon": "/icons/skills/office.svg",
+                    "id": 3
+                },
+                {
+                    "name": "Illustrator",
+                    "level": 100,
+                    "alt": "icon van Illustrator",
+                    "icon": "/icons/skills/illustrator.svg",
+                    "id": 4
+                },
+                {
+                    "name": "Indesign",
+                    "level": 100,
+                    "alt": "icon van Indesign",
+                    "icon": "/icons/skills/indesign.svg",
+                    "id": 5
+                },
+                {
+                    "name": "After Effects",
+                    "level": 100,
+                    "alt": "icon van After Effects",
+                    "icon": "/icons/skills/aftereffects.svg",
+                    "id": 6
+                },
+                {
+                    "name": "Unity",
+                    "level": 100,
+                    "alt": "icon van Unity",
+                    "icon": "/icons/skills/unity.svg",
+                    "id": 7
+                },
+                {
+                    "name": "Blender",
+                    "level": 100,
+                    "alt": "icon van blender",
+                    "icon": "/icons/skills/blender.svg",
+                    "id": 8
+                },
+                {
+                    "name": "3Ds Max",
+                    "level": 100,
+                    "alt": "icon van 3Ds Max",
+                    "icon": "/icons/skills/3dsmax.svg",
+                    "id": 9
+                },
+                {
+                    "name": "Autocad",
+                    "level": 65,
+                    "alt": "icon van autocad",
+                    "icon": "/icons/skills/autocad.svg",
+                    "id": 10
+                },
+                {
+                    "name": "Vectorworks",
+                    "level": 55,
+                    "alt": "icon van vectorworks",
+                    "icon": "/icons/skills/vectorworks.svg",
+                    "id": 11
+                },
+                {
+                    "name": "Zbrush",
+                    "level": 80,
+                    "alt": "icon van Zbrush",
+                    "icon": "/icons/skills/zbrush.svg",
+                    "id": 12
+                }
+            ],
+            "skills_hardwares": [
+                {
+                    "name": "Tekenen",
+                    "level": 100,
+                    "alt": "icon van potlood",
+                    "icon": "/icons/skills/pencil.svg",
+                    "id": 1
+                },
+                {
+                    "name": "Virtual Reality",
+                    "level": 84,
+                    "alt": "icon van VR",
+                    "icon": "/icons/skills/vr.svg",
+                    "id": 2
+                },
+                {
+                    "name": "Digital tekenen (wacom)",
+                    "level": 100,
+                    "alt": "icon van wacom",
+                    "icon": "/icons/skills/wacom.svg",
+                    "id": 3
+                }
+            ]
+        },
+        "certificates": [
+            {
+                "id": 1,
+                "name": "Command line",
+                "date": "06-03-24",
+                "origin": "Bit-academy",
+                "image": "/images/certificates/Command_line_certificate.jpg"
+            },
+            {
+                "id": 2,
+                "name": "HTML & CSS Beginner",
+                "date": "08-03-24",
+                "origin": "Bit-academy",
+                "image": "/images/certificates/HTML_CSS_Beginner.jpg"
+            }
+        ]
+    }
+}

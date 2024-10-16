@@ -1,0 +1,192 @@
+.about-section {
+    display: flex;
+    width: calc(100% - 32px);
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 0px auto 0 auto;
+    background-color: var(--secondary-background-color);
+    color: var(--text-secondary-color);
+    z-index: 2;
+}
+
+.left-article h2,
+.right-article h2 {
+    margin: 8px;
+}
+
+.left-article p,
+.right-article p {
+    margin: 8px;
+}
+
+.right-article p,
+.right-article h2 {
+    text-align: end;
+}
+
+.left-article p,
+.left-article h2 {
+    text-align: start;
+}
+
+.left-article p,
+.right-article p {
+    letter-spacing: 1px;
+}
+
+.about-pill {
+    width: 200px;
+    height: auto;
+    background-color: var(--primary-color);
+    border-radius: 128px;
+    margin: 16px;
+}
+
+.about-section .right-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about-section .left-article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.about-section>article:nth-child(1) {
+    width: 904px;
+}
+
+.left-article>.text-div,
+.right-article>.text-div {
+    width: 720px;
+}
+
+@media (max-width: 995px) {
+
+    h1 {
+        font-size: 3.5rem;
+        padding: 0;
+        line-height: 1;
+        font-weight: 200;
+        font-style: normal;
+        margin: 16px 0 16px 0;
+    }
+
+    .about-section .right-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+    .about-section .left-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-pill {
+        width: 590px;
+        height: 100px;
+        background-color: var(--primary-color);
+        border-radius: 128px;
+        margin: 16px auto;
+    }
+
+    .left-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-section>article:nth-child(1) {
+        width: 600px;
+    }
+
+    .left-article>.text-div,
+    .right-article>.text-div {
+        width: 600px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    h1 {
+        font-size: 3rem;
+        padding: 0;
+        line-height: 1;
+        font-weight: 200;
+        font-style: normal;
+        margin: 16px 0 8px 0;
+    }
+
+    .about-section .right-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-section .left-article {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about-section>article:nth-child(1) {
+        width: 100%;
+    }
+
+    .about-section .left-article>.text-div,
+    .about-section .right-article>.text-div {
+        width: 100%;
+    }
+}
+
+.about-pill {
+    width: 200px;
+    height: 200px;
+    /* Set a fixed height to maintain aspect ratio */
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    /* Change to 50% to make it a perfect circle */
+    margin: 16px;
+    overflow: hidden;
+    /* Ensure the image doesn't overflow the border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pill img {
+    width: 100%;
+    /* Ensures the image fills the circle */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the entire area without distortion */
+    border-radius: 50%;
+    /* Keep the image corners rounded */
+}
+
+@media (max-width: 995px) {
+    .about-pill {
+        width: 567px !important;
+        height: 200px !important;
+        object-fit: cover;
+        border-radius: 200px;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-pill {
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover;
+        border-radius: 200px;
+    }
+}
